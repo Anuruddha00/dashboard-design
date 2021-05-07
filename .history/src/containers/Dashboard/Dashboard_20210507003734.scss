@@ -1,0 +1,115 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.container{
+    background: #f1f5fb;
+    height: 100vh;
+
+    .dashboard{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        gap:10px;
+        grid-auto-rows: minmax(100px, auto);
+
+        &SideBar{
+            grid-column: 1;
+            grid-row: 1 / 6;
+            border-radius: 15px;
+            background: #ffffff;
+            margin: 10px;
+           
+            &Title{
+                margin-top: 90px;
+                
+                &Dashboard{
+                    background:#fc4760 ;
+                    
+                    text-align: center;
+                }
+                h3{
+                    text-align: center;
+                    margin-top: 30px;
+                }
+            }
+        }
+        &Menu{
+            border: 1px solid red;
+            grid-column: 2;
+            grid-row: 1 / 6;
+            margin: 10px;
+
+            .content{
+                display: grid;
+                grid-template-rows:1fr 3fr ;
+                gap:10px;
+
+                &Navbar{
+                    display: flex;
+                    justify-content: space-between;
+                    background: #ffffff;
+                    border-radius: 15px;
+
+                    &Search{
+                        
+                        input{
+                            background: #f1f5fb;
+                            border-style: none;
+                            padding:10px;
+                            margin: 10px;
+                            border-radius: 15px;
+                        }
+                    }
+                    &Profile{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 2em;
+                        margin-right: 15px;
+
+                        &Name{
+                            text-align: end;
+                            
+                            h3{
+                                color: #cdcdd3;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// .navBar{
+//     display: flex;
+//     justify-content: end;
+//     border: 1px solid #ffffff;
+//     background:#ffffff;
+    
+//     &Content{
+//         display: flex;
+        
+
+//         &Search{
+
+//             &Field{
+
+//             }
+//         }
+//         &Profile{
+
+//             &Name{
+               
+//             }
+//             display: flex;
+//             gap: 1em;
+//         }
+//     }
+// }

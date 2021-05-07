@@ -1,0 +1,76 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.container{
+    background: #f1f5fb;
+    height: 100vh;
+
+    .dashboard{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        gap:10px;
+        grid-auto-rows: minmax(100px, auto);
+
+        &SideBar{
+            grid-column: 1;
+            grid-row: 1 / 6;
+            border-radius: 15px;
+            background: #ffffff;
+            margin: 10px;
+        
+        }
+        &Menu{
+            border: 1px solid red;
+            grid-column: 2;
+            grid-row: 1 / 6;
+            margin: 10px;
+
+            .content{
+
+                &Navbar{
+                    display: flex;
+                    justify-content: space-between;
+
+                    &Search{
+                        display: flex;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// .navBar{
+//     display: flex;
+//     justify-content: end;
+//     border: 1px solid #ffffff;
+//     background:#ffffff;
+    
+//     &Content{
+//         display: flex;
+        
+
+//         &Search{
+
+//             &Field{
+
+//             }
+//         }
+//         &Profile{
+
+//             &Name{
+               
+//             }
+//             display: flex;
+//             gap: 1em;
+//         }
+//     }
+// }

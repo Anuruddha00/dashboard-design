@@ -1,0 +1,251 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.container{
+    background: #f1f5fb;
+    height: 100vh;
+
+    .dashboard{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        gap:10px;
+        grid-auto-rows: minmax(100px, auto);
+
+        &SideBar{
+            grid-column: 1;
+            grid-row: 1 / 6;
+            border-radius: 16px;
+            background: #ffffff;
+            margin: 10px;
+           
+            &Title{
+                margin-top: 90px;
+                font-size: 14px;
+
+                &Dashboard{
+                    background:#fc4760;
+                    border-radius: 10px;
+                    text-align: center;
+                    padding: 10px 10px 10px 10px;
+                    margin: 10px 15px 10px 15px;
+                    color: #ffffff;
+
+                }
+                &Courses{
+                    text-align: center;
+                    margin-top: 30px;
+                    color: #9a9999;
+                }
+                &Investment{
+                    text-align: center;
+                    margin-top: 30px;
+                    color: #9a9999;
+                }
+                &Blog{
+                    text-align: center;
+                    margin-top: 30px;
+                    margin-right: 50px;
+                    color: #9a9999;
+                }
+            }
+            &Contact{
+                margin-top: 100%;
+                
+                p{
+                    text-align: center;
+                    color: #9a9999;
+                    
+                }
+                
+            }
+        }
+        &Menu{
+            // border: 1px solid red;
+            grid-column: 2;
+            grid-row: 1 / 6;
+            margin: 10px;
+
+            .content{
+                display: grid;
+                grid-template-rows:1fr 7fr ;
+                gap:10px;
+
+                &Navbar{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    background: #ffffff;
+                    border-radius: 16px;
+
+                    &Search{
+                        
+                        input{
+                            background: #f1f5fb;
+                            border-style: none;
+                            padding-left: 10px;
+                            width: 400px;
+                            height: 40px;
+                            margin: 15px 0 0 10px;
+                            border-radius: 10px;
+                            
+                        }
+                    }
+                    &Profile{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-end;
+                        gap: 1em;
+                        margin-right: 15px;
+                        align-items: center;
+                        height: 68px;
+
+                        &Name{
+                            text-align: end;
+                            margin-top: 0;
+                            
+                            h3{
+                                color: #9a9999;
+                                margin: 0;
+                                font-size: 14px;
+                            }
+                            h2{
+                                margin: 0;
+                                font-size: 16px;
+                                color: #707070;
+                            }
+                        }
+                    }
+                }
+                &Body{
+                    display: grid;
+                    grid-template-columns: 2fr 4fr 3fr;
+
+                    .details{
+                        border-radius: 16px;
+                        background: #ffffff;
+
+                        &About{
+
+                            &Profile{
+                                text-align: center;
+                                margin-top: 15px;
+                                
+                                h3{
+                                    font-size: 18px;
+                                    margin: 0;
+                                }
+                                p{
+                                    color: #b0b2b5;
+                                    margin-top: 0;
+                                }
+                                button{
+                                    border-style: none;
+                                    border-radius: 10px;
+                                    width: 100px;
+                                    height: 30px;
+                                    color: #ffffff;
+                                    background: #fc4760;
+                                    
+                                }
+                            }
+                            &Complete{
+                                background: #f1f5fb;
+                                border-radius: 10px;
+                                color: #b0b2b5;
+                                height: 53px;
+                                width: 208px;
+                                font-size: 12px;
+                                margin-left: 15px;
+                                
+                                p{
+                                    padding-left: 10px;
+                                    padding-top: 10px;
+                                }
+                            }
+                            &Progress{
+                                display: grid;
+                                grid-template-columns: 1fr 1fr;
+                                margin: 13px;
+                                gap: 1em;
+                                color: #ffffff;
+
+                                p{
+                                    font-size: 12px;
+                                    padding-left: 10px;
+                                }
+                               
+                                
+                                &Completed{
+                                    background: #79e289;
+                                    border-radius: 8px;
+                                    width: 96px;
+                                    height: 100px;
+                                    position: relative;
+
+                                    h1{
+                                        font-size: 24px;
+                                        position: absolute;
+                                        left: 10px;
+                                        top: 30px;                             
+                                    }
+                                    
+                                }
+                                &Continue{
+                                    background:  #44c6ff;
+                                    border-radius: 8px;
+                                    width: 96px;
+                                    height: 100px;
+                                    position: relative;
+
+                                    h1{
+                                        font-size: 24px;
+                                        position: absolute;
+                                        left: 10px;
+                                        top: 30px;                             
+                                    }
+                                    
+                                }
+                                &Blogs{
+                                    background:  #f4d33d;
+                                    border-radius: 8px;
+                                    width: 96px;
+                                    height: 100px;
+                                    position: relative;
+
+                                    h1{
+                                        font-size: 24px;
+                                        position: absolute;
+                                        left: 10px;
+                                        top: 30px;                             
+                                    }
+                                }
+                                &Points{
+                                    background: #f560b2;
+                                    border-radius: 8px;
+                                    width: 96px;
+                                    height: 100px;
+                                    position: relative;
+
+                                    h1{
+                                        font-size: 24px;
+                                        position: absolute;
+                                        left: 10px;
+                                        top: 30px;                             
+                                    }
+                                    
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

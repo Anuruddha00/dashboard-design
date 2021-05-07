@@ -1,0 +1,35 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+
+    .dashboard{
+
+
+        &NavBar{
+            display: flex;
+            justify-content: end;
+
+            &Content{
+                display: flex;
+                justify-content: space-between;
+
+                &Search{
+
+                    &Field{
+
+                    }
+                }
+                &Profile{
+                    display: flex;
+                    flex-direction: row;
+                }
+            }
+        }
+    }
+}
