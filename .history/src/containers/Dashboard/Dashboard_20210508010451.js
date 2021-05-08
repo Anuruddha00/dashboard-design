@@ -87,7 +87,7 @@ const dashboard = () =>{
                                             </div>
                                         </div>
                                         <div className='coursesListBusiness'>
-                                            <img src='./assets/image16.png'/>
+                                            <img src='./assets/Image 16.png'/>
                                             <div className='coursesListBusinessDescription'>
                                                 <h3>E-Commerce Essentials: How to Start a Successful Online Business</h3>
                                                 <div className='coursesListBusinessDuration'>
