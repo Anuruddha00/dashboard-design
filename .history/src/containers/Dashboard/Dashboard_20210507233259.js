@@ -77,9 +77,9 @@ const dashboard = () =>{
                                     <div className='coursesList'>
                                         <div className='coursesListManagement'>
                                             <img src='./assets/Image 15.png'/>
-                                            <div className='coursesListManagementDescription'>
+                                            <div className='coursesListDescription'>
                                                 <h3>Project Management Masterclass - Spinning plates: A day in the life of a Project Manager</h3>
-                                                <div className='coursesListManagementDuration'>
+                                                <div className='coursesListDuration'>
                                                     <li>1h 53m</li>
                                                     <li>jan 16, 2021</li>
                                                 </div>
@@ -119,28 +119,26 @@ const dashboard = () =>{
                             </section>  
 
                             <section className='notification'>
-                                <div className='notificationSegment'>
-                                    <nav className='notificationSegmentNavbar'>
-                                        <h2>Notification</h2>
-                                    </nav>
-                                    <div className='notificationSegmentParagraph'>
-                                        <h3>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit</h3>
+                                <div className='notificationBar'>
+                                    <h2>Notification</h2>
+                                    <div className='notificationBar'>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                         <p>Saturday,January 16, 2021</p>
                                     </div>
-                                    <div className='notificationSegmentParagraph'>
-                                        <h3>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit</h3>
+                                    <div className=''>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                         <p>Saturday,January 16, 2021</p>
                                     </div>
-                                    <div className='notificationSegmentParagraph'>
-                                        <h3>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit</h3>
+                                    <div className=''>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                         <p>Saturday,January 16, 2021</p>
                                     </div>
-                                    <div className='notificationSegmentParagraph'>
-                                        <h3>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit</h3>
+                                    <div className=''>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                         <p>Saturday,January 16, 2021</p>
                                     </div>
-                                    <div className='notificationSegmentParagraph'>
-                                        <h3>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit</h3>
+                                    <div className=''>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                         <p>Saturday,January 16, 2021</p>
                                     </div>
                                 </div>

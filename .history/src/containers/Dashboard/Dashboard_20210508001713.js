@@ -77,9 +77,9 @@ const dashboard = () =>{
                                     <div className='coursesList'>
                                         <div className='coursesListManagement'>
                                             <img src='./assets/Image 15.png'/>
-                                            <div className='coursesListManagementDescription'>
+                                            <div className='coursesListDescription'>
                                                 <h3>Project Management Masterclass - Spinning plates: A day in the life of a Project Manager</h3>
-                                                <div className='coursesListManagementDuration'>
+                                                <div className='coursesListDescriptionDuration'>
                                                     <li>1h 53m</li>
                                                     <li>jan 16, 2021</li>
                                                 </div>

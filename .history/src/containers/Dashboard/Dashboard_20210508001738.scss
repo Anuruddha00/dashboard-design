@@ -41,46 +41,17 @@ body{
                     text-align: center;
                     margin-top: 30px;
                     color: #9a9999;
-                    text-align: center;
-
-                    &:hover{
-                        border: 1px solid rebeccapurple;
-                        padding: 10px 10px 10px 10px;
-                        margin: 10px 15px 10px 15px;
-                        border-radius: 10px;
-                        text-align: center;
-                        
-                    }
                 }
                 &Investment{
                     text-align: center;
                     margin-top: 30px;
                     color: #9a9999;
-                    text-align: center;
-
-                    &:hover{
-                        border: 1px solid rebeccapurple;
-                        padding: 10px 10px 10px 10px;
-                        margin: 10px 15px 10px 15px;
-                        border-radius: 10px;
-                        text-align: center;
-                        
-                    }
                 }
                 &Blog{
                     text-align: center;
                     margin-top: 30px;
                     margin-right: 50px;
                     color: #9a9999;
-                    text-align: center;
-
-                    &:hover{
-                        border: 1px solid rebeccapurple;
-                        padding: 10px 10px 10px 10px;
-                        margin: 10px 15px 10px 15px;
-                        border-radius: 10px;
-          
-                    }
                 }
             }
             &Contact{
@@ -298,13 +269,29 @@ body{
                                 display: flex;
                                 flex-direction: column;
 
+                                &Description{
+                                    font-size: 14px;
+                                    
+                                    &Duration{
+                                        display: flex;
+                                        list-style: none;
+                                        font-size: 13px;
+                                        color: #707070;
+                                        
+                                        li{
+                                            margin-right: 20px;
+                                        }
+                                    }
+                                }
+                                
                                 &Management{
                                     background: #f3f6fb;
                                     margin-left: 10px;
                                     border-radius: 10px;
                                     width: 554px;
                                     height: 138px;
-                                    display: flex;
+                                    display: grid;
+                                    grid-template-columns: 1fr 1fr;
                                     position: relative;
 
                                     img{
@@ -313,36 +300,11 @@ body{
                                         align-self: center;
                                         position: absolute;
                                     }
-
-                                    &Description{
                                     
-                                        h3{
-                                            font-size: 14px;
-                                            position: absolute;
-                                            left:210px;
-                                            bottom: 75px;
-                                        }
-                                    }
-                                    &Duration{
-                                        display: flex;
-                                        list-style: none;
-                                        font-size: 13px;
-                                        color: #707070;
-                                        position: absolute;
-                                        left:210px;
-                                        bottom: 60px;
-
-                                        li{
-                                            margin-right: 20px;     
-                                        }
-                                    }
                                     p{
                                         margin: 0;
                                         color: #707070;
                                         font-size: 13px;
-                                        position: absolute;
-                                        left:210px;
-                                        bottom: 30px;
                                     }
                                 }
                                 &Business{
@@ -360,39 +322,22 @@ body{
                                         height: fit-content;
                                         width: fit-content;
                                         align-self: center;
-                                        position: absolute;
-                                    }
-
-                                    &Description{
-                                    
-                                        h3{
-                                            font-size: 14px;
-                                            position: absolute;
-                                            left:210px;
-                                            bottom: 75px;
-                                        }
                                     }
                                     &Duration{
                                         display: flex;
                                         list-style: none;
                                         font-size: 13px;
                                         color: #707070;
-                                        position: absolute;
-                                        left:210px;
-                                        bottom: 60px;
-
+                                        
                                         li{
-                                            margin-right: 20px;     
+                                            margin-right: 20px;
                                         }
                                     }
                                     p{
                                         margin: 0;
                                         color: #707070;
                                         font-size: 13px;
-                                        position: absolute;
-                                        left:210px;
-                                        bottom: 30px;
-                                    }       
+                                    }      
                                 }
                             }    
                         }

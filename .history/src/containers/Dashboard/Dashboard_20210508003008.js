@@ -88,9 +88,9 @@ const dashboard = () =>{
                                         </div>
                                         <div className='coursesListBusiness'>
                                             <img src='./assets/Image 16.png'/>
-                                            <div className='coursesListBusinessDescription'>
+                                            <div className='coursesListDescription'>
                                                 <h3>E-Commerce Essentials: How to Start a Successful Online Business</h3>
-                                                <div className='coursesListBusinessDuration'>
+                                                <div className='coursesListDuration'>
                                                     <li>2h 43m</li>
                                                     <li>jan 16,2021-May 16, 2021</li>
                                                 </div>
