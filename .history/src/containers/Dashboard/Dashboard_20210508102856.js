@@ -46,8 +46,6 @@ const dashboard = () =>{
                                     </div>
                                     <div className='detailsAboutComplete'>
                                         <p>Complete your profile</p>
-                                        <span className='detailsAboutCompleteLine1'></span>
-                                        <span className='detailsAboutCompleteLine2'></span>
                                     </div>
                                     <div className='detailsAboutProgress'>
                                         <div className='detailsAboutProgressCompleted'>
@@ -78,7 +76,7 @@ const dashboard = () =>{
                                     </nav>
                                     <div className='coursesList'>
                                         <div className='coursesListManagement'>
-                                            <img src='./assets/image14.png'/>
+                                            <img src='./assets/image15.png'/>
                                             <div className='coursesListManagementDescription'>
                                                 <h3>Project Management Masterclass - Spinning plates: A day in the life of a Project Manager</h3>
                                                 <div className='coursesListManagementDescriptionDuration'>
@@ -89,7 +87,7 @@ const dashboard = () =>{
                                             </div>
                                         </div>
                                         <div className='coursesListBusiness'>
-                                            <img src='./assets/image17.png'/>
+                                            <img src='./assets/image16.png'/>
                                             <div className='coursesListBusinessDescription'>
                                                 <h3>E-Commerce Essentials: How to Start a Successful Online Business</h3>
                                                 <div className='coursesListBusinessDescriptionDuration'>
@@ -116,12 +114,15 @@ const dashboard = () =>{
                                             <button>Unpublished</button>
                                         </div>
                                     </div>
+
                                 </section>
                             </section>  
 
                             <section className='notification'>
                                 <div className='notificationSegment'>
-                                    <h2>Notification</h2>
+                                    <nav className='notificationSegmentNavbar'>
+                                        <h2>Notification</h2>
+                                    </nav>
                                     <div className='notificationSegmentParagraph'>
                                         <h3>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit</h3>
                                         <p>Saturday,January 16, 2021</p>

@@ -1,111 +1,145 @@
 
 body{
-    margin: 16px;
+    margin: 0;
     padding: 0;
     font-size: 0.875rem;
     font-family: 'Poppins', sans-serif;
-    background: #f1f5fb;
     
 }
 
-.container{ 
+.container{
+    background: #f1f5fb;
     height: 100%;
     width: 100%;
     
     .dashboard{
         display: grid;
-        grid-template-columns: 1fr 5fr;
-        gap: 16px;
+        grid-template-columns: 1fr 1fr;
 
         &SideBar{
+            grid-column: 1;
+            grid-row: 1 / 6;
             border-radius: 16px;
             background: #ffffff;
-            width: 100%;
-            height: calc(100vh - 2px);
-            position: relative;
+            margin: 10px;
+            height: 688px;
+            width: 240px;
            
-            &Action{
-               display: flex;
-               flex-direction: column;
-               margin-top: 50%;
+            &Title{
+                margin-top: 150px;
+                font-size: 14px;
 
-                &Button{
-                   text-align: left;
-                   background: transparent;
-                   padding: 16px 10px;
-                   margin: 8px 16px;
-                   border-radius: 10px;
-                   font-size: 1.1em;
-                   border-style: none;
-                   cursor: pointer;
-                   color: #9a9999;
+                &Dashboard{
+                    background:#fc4760;
+                    border-radius: 10px;
+                    text-align: center;
+                    padding: 10px 10px 10px 10px;
+                    margin: 10px 15px 10px 15px;
+                    color: #ffffff;
+                }
+                &Courses{
+                    text-align: center;
+                    margin-top: 30px;
+                    color: #9a9999;
+                    text-align: center;
+                    padding: 10px 10px 10px 10px;
+                    margin: 15px 15px 10px 15px;
+                    cursor: pointer;
 
-                   &:hover{
-                        background: #f1f5fb;
-                   }
-                    &:first-child {
-                        margin-top: 16px;
+                    &:hover{
+                        border: 1px solid rebeccapurple;
+                        padding: 10px 10px 10px 10px;
+                        margin: 15px 15px 10px 15px;
+                        border-radius: 10px;
+                        text-align: center;
+                        
                     }
+                }
+                &Investment{
+                    text-align: center;
+                    margin-top: 30px;
+                    color: #9a9999;
+                    text-align: center;
+                    padding: 10px 10px 10px 10px;
+                    margin: 15px 15px 10px 15px;
+                    cursor: pointer;
 
-                    &[dataIsActive=true]{
-                        background:#fc4760;
-                        color: #ffffff;
-                    }     
-                }   
+                    &:hover{
+                        border: 1px solid rebeccapurple;
+                        padding: 10px 10px 10px 10px;
+                        margin: 15px 15px 10px 15px;
+                        border-radius: 10px;
+                        text-align: center;
+                        
+                    }
+                }
+                &Blog{
+                    text-align: center;
+                    margin-top: 30px;
+                    margin-right: 50px;
+                    color: #9a9999;
+                    text-align: center;
+                    padding: 10px 10px 10px 10px;
+                    margin: 15px 15px 10px 15px;
+                    cursor: pointer;
+
+                    &:hover{
+                        border: 1px solid rebeccapurple;
+                        padding: 10px 10px 10px 10px;
+                        margin: 15px 15px 10px 15px;
+                        border-radius: 10px;
+          
+                    }
+                }
             }
             &Contact{
-                position: absolute;
-                bottom: 10%;
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                padding: 16px 0;
+                margin-top: 80%;
                 
-                button{
-                    font-family: 'Poppins', sans-serif;
-                    cursor: pointer;
-                    background: transparent;
-                    border: none;
-                    outline: none;
+                p{
                     text-align: center;
                     color: #9a9999;
-                    font-size: 14px; 
+                    font-size: 14px;
                 }                
             }
         }
         &Menu{
+            grid-column: 2;
+            grid-row: 1 / 6;
+            margin: 10px;
+
             .content{
+                display: grid;
+                grid-template-rows:1fr 7fr ;
+                gap:10px;
 
                 &Navbar{
                     display: flex;
                     justify-content: space-between;
                     background: #ffffff;
                     border-radius: 16px;
+                    height: 68px;
+                    width: 1151px;
 
                     &Search{
-                        form{
-                            height: 100%;
-                            input{
-                                background: #f1f5fb;
-                                border-style: none;
-                                padding-left: 10px;
-                                width: 400px;
-                                height: calc(100% - 32px);
-                                margin: 16px 0 auto 10px;
-                                border-radius: 10px;  
-                                outline: none;                          
-                            }
-                        }          
+                        
+                        input{
+                            background: #f1f5fb;
+                            border-style: none;
+                            padding-left: 10px;
+                            width: 400px;
+                            height: 40px;
+                            margin: 15px 0 0 10px;
+                            border-radius: 10px;                            
+                        }
                     }
                     &Profile{
                         display: flex;
                         flex-direction: row;
                         gap: 1em;
-                        padding-right: 16px;
-                        height: 68px;
+                        margin-right: 90px;
                         align-items: center;
-                        justify-content: flex-end;
-                      
+                        height: 68px;
+
                         &Name{
                             text-align: end;
                             margin-top: 0;
@@ -125,19 +159,20 @@ body{
                 }
                 &Body{
                     display: grid;
-                    grid-template-columns: 2fr 5fr 3fr;
-            
+                    grid-template-columns: 1fr 1fr 1fr;
+                    position: relative;
+
                     .details{
-                        margin: 16px 8px;
                         border-radius: 16px;
                         background: #ffffff;
-                        height: calc(100vh - 110px);
-
+                        
                         &About{
-                            
+                            height:555px;
+                            width: 240px;
+                           
                             &Profile{
                                 text-align: center;
-                                margin-top: 8px;
+                                margin-top: 15px;
                                                 
                                 h3{
                                     font-size: 18px;
@@ -153,8 +188,7 @@ body{
                                     width: 100px;
                                     height: 30px;
                                     color: #ffffff;
-                                    background: #fc4760;   
-                                    cursor: pointer;                                 
+                                    background: #fc4760;                                    
                                 }
                             }
                             &Complete{
@@ -162,41 +196,19 @@ body{
                                 border-radius: 10px;
                                 color: #b0b2b5;
                                 height: 53px;
+                                width: 208px;
                                 font-size: 12px;
-                                margin: 8px 8px auto 8px;
-                                display: flex;
-                                flex-direction: column;
-                                position: relative;
+                                margin-left: 15px;
                                 
                                 p{
                                     padding-left: 10px;
-                                }   
-                                &Line1{
-                                    content: '';
-                                    background: #79e289;
-                                    height: 10px;
-                                    width: 70px;
-                                    border-radius: 10px;
-                                    position: absolute;
-                                    bottom: 5px;
-                                    left: 10px;
+                                    padding-top: 10px;
                                 }
-                                &Line2{
-                                    content: '';
-                                    background: #b0b2b5;
-                                    height: 10px;
-                                    width: 90px;
-                                    border-radius: 10px;
-                                    position: absolute;
-                                    bottom: 5px;
-                                    left: 70px;
-                                }
-
                             }
                             &Progress{
                                 display: grid;
                                 grid-template-columns: 1fr 1fr;
-                                margin: 8px 8px auto 8px;;
+                                margin: 13px;
                                 gap: 1em;
                                 color: #ffffff;
 
@@ -207,8 +219,8 @@ body{
                                 &Completed{
                                     background: #79e289;
                                     border-radius: 8px;
-                                    width: 100%;
-                                    height: 90px;
+                                    width: 96px;
+                                    height: 100px;
                                     position: relative;
 
                                     h1{
@@ -221,8 +233,8 @@ body{
                                 &Continue{
                                     background:  #44c6ff;
                                     border-radius: 8px;
-                                    width: 100%;
-                                    height: 90px;
+                                    width: 96px;
+                                    height: 100px;
                                     position: relative;
 
                                     h1{
@@ -235,8 +247,8 @@ body{
                                 &Blogs{
                                     background:  #f4d33d;
                                     border-radius: 8px;
-                                    width: 100%;
-                                    height: 90px;
+                                    width: 96px;
+                                    height: 100px;
                                     position: relative;
 
                                     h1{
@@ -249,8 +261,8 @@ body{
                                 &Points{
                                     background: #f560b2;
                                     border-radius: 8px;
-                                    width: 100%;
-                                    height: 90px;
+                                    width: 96px;
+                                    height: 100px;
                                     position: relative;
 
                                     h1{
@@ -264,10 +276,11 @@ body{
                         }
                     }
                     .view{  
-                        margin:16px 8px;
+                        margin-left: 7px;
 
                         .courses{
-                            padding: 16px;
+                            width: 586px;
+                            height: 372px;
                             border-radius: 16px;
                             background: #ffffff;  
                             position: relative;
@@ -276,109 +289,134 @@ body{
                                 list-style: none;
                                 display: flex;
                                 justify-content: space-between;
+                                height: 55px;
                                 
                                 &Title{
                                     font-size: 18px;
                                     font-weight: bold;
-                                    padding-bottom: 10px;
+                                    padding: 20px 0 0 10px;
                                 }
                                 &View{
                                     color: #b0b2b5;
                                     font-size: 14px;
-                                    padding-bottom: 10px;
-                                    cursor: pointer;
+                                    padding: 25px 20px;
                                 }
                             }
                             &List{
-                                display: grid;
-                                gap: 16px;
+                                padding: 0 5px 5px 5px;
+                                display: flex;
+                                flex-direction: column;
 
                                 &Management{
                                     background: #f3f6fb;
+                                    margin-left: 10px;
                                     border-radius: 10px;
-                                    width: calc(100% -16px);
-                                    height: 125px;
+                                    width: 554px;
+                                    height: 138px;
                                     display: flex;
-                                    padding: 10px;
+                                    position: relative;
 
                                     img{
-                                        height: fit-content;
-                                        width: fit-content;
+                                        height: 80%;
+                                        width: 30%;
+                                        left:15px;
                                         align-self: center;
+                                        border-radius: 10px;
+                                        position: absolute;
                                     }
 
                                     &Description{
-                                        margin-left: 10px;
-                                        margin-top: -20px;
-
+                                    
                                         h3{
                                             font-size: 14px;
+                                            position: absolute;
+                                            left:200px;
+                                            bottom: 75px;
                                         }
-                                        &Duration{
-                                            display: flex;
-                                            list-style: none;
-                                            font-size: 13px;
-                                            color: #707070;
-    
-                                            li{
-                                                margin-right: 20px;     
-                                            }
+                                    }
+                                    &Duration{
+                                        display: flex;
+                                        list-style: none;
+                                        font-size: 13px;
+                                        color: #707070;
+                                        position: absolute;
+                                        left:200px;
+                                        bottom: 60px;
+
+                                        li{
+                                            margin-right: 20px;     
                                         }
                                     }
                                     p{
-                                        margin-top: 8px;
+                                        margin: 0;
                                         color: #707070;
                                         font-size: 13px;
+                                        position: absolute;
+                                        left:200px;
+                                        bottom: 30px;
                                     }
                                 }
                                 &Business{
                                     background: #f3f6fb;
+                                    margin-top: 20px;
+                                    margin-left: 10px;
                                     border-radius: 10px;
-                                    width: calc(100% - 16px);
-                                    height: 125px;
+                                    width: 554px;
+                                    height: 138px;
                                     display: flex;
-                                    padding: 10px;
+                                    flex-direction: row;
+                                    position: relative;
 
                                     img{
-                                        height: fit-content;
-                                        width: fit-content;
+                                        height: 80%;
+                                        width: 30%;
+                                        left:15px;
                                         align-self: center;
+                                        border-radius: 10px;
+                                        position: absolute;
                                     }
 
 
                                     &Description{
-                                        margin-left: 10px;
-                                        margin-top: -20px;
-
+                                    
                                         h3{
                                             font-size: 14px;
+                                            position: absolute;
+                                            left:200px;
+                                            bottom: 75px;
                                         }
-                                        &Duration{
-                                            display: flex;
-                                            list-style: none;
-                                            font-size: 13px;
-                                            color: #707070;
-    
-                                            li{
-                                                margin-right: 20px;     
-                                            }
+                                    }
+                                    &Duration{
+                                        display: flex;
+                                        list-style: none;
+                                        font-size: 13px;
+                                        color: #707070;
+                                        position: absolute;
+                                        left:200px;
+                                        bottom: 60px;
+
+                                        li{
+                                            margin-right: 20px;     
                                         }
                                     }
                                     p{
-                                        // margin-top: 8px;
+                                        margin: 0;
                                         color: #707070;
                                         font-size: 13px;
-                                       
+                                        position: absolute;
+                                        left:200px;
+                                        bottom: 30px;
                                     }       
                                 }
                             }    
                         }
                         .blog{
+                            width: 586px;
+                            height: 272px;
                             border-radius: 16px;
-                            padding: 16px;
-                            margin-top: 10px;
                             background: #ffffff;
-                            position: relative;    
+                            margin-top: 7px;
+                            position: absolute;    
                             
                             &Navbar{
                                 list-style: none;
@@ -389,53 +427,54 @@ body{
                                 &Title{
                                     font-size: 18px;
                                     font-weight: bold;
-                                    padding: 5px 0 0 10px;
+                                    padding: 20px 0 0 15px;
                                 }
                                 &View{
                                     color: #b0b2b5;
                                     font-size: 14px;
-                                    cursor: pointer;
+                                    padding: 25px 20px;
                                 }
                             }
                             &Content{
-                                display: grid;
-                                gap: 16px;
+                                margin-left: 10px;
                                 
                                 &Published{
+                                    width: 554px;
+                                    height: 94px;
                                     background: #f3f6fb;
                                     border-radius: 10px;
                                     padding-left: 10px;
                                     font-size: 14px;
+                                    position: relative;
 
                                     h3{
-                                        margin: 0;
                                         padding-top: 5px
                                     }
                                     button{
-                                        margin-top: 16px;
+                                        position: absolute;
+                                        bottom: 10px;
                                         background: #79e289;
                                         color: #ffffff;
                                         border-radius: 12px;
                                         border-style: none;
-                                        padding: 4px 12px 4px 12px;
+                                        padding: 4px 10px 4px 10px;
                                         cursor: pointer;
-                                        position: relative;
-                                        bottom: 10px;
                                     }
                                 }
                                 &Unpublished{
-                                    padding: 10px;
+                                    width: 554px;
+                                    height: 80px;
                                     background: #f3f6fb;
                                     border-radius: 10px;
                                     padding-left: 10px;
                                     font-size: 14px;
 
                                     h3{
-                                        margin: 0;
                                         padding-top: 5px
                                     }
                                     button{
-                                        margin-top: 16px;
+                                        position: absolute;
+                                        bottom: 50px;
                                         background: #ff7552;
                                         color: #ffffff;
                                         border-radius: 12px;
@@ -448,30 +487,42 @@ body{
                         }
                     }
                     .notification{
-                        margin: 16px 8px;
+                        margin-left: 7px;
                        
                         &Segment{
+                            width: 293px;
+                            height: 535px;
                             background: #ffffff;
                             border-radius: 16px;
-                            padding: 16px;
-                            height: calc(100% - 22%);
 
-                            h2{
-                                margin: 0;
+                            &Navbar{
+                                padding: 4px 0 0 10px;
+                                height: 37px;
+                            }
+                            h3{
+                                font-size: 14px;
+                                color: #707070;
+                            }
+                            p{
+                                font-size: 12px;
+                                color: #b0b2b5;
                             }
                             &Paragraph{
+                                width: 262px;
+                                height: 82px;
                                 border-radius: 10px;
                                 background: #f3f6fb;
-                                
+                                margin-top: 8px;
+                                margin-left: 10px;
+                                position: relative;
+
                                 h3{
-                                    font-size: 14px;
-                                    color: #707070;
-                                    padding: 3px 0 3px 10px;
+                                    padding: 5px 0 5px 8px;
                                 }
                                 p{
-                                    font-size: 12px;
-                                    color: #b0b2b5;
-                                    padding-left: 8px;
+                                    position: absolute;
+                                    top: 40px;
+                                    left: 10px;
                                 }
                             }
                         }

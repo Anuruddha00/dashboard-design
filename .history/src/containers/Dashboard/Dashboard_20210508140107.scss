@@ -177,7 +177,7 @@ body{
                                     height: 10px;
                                     width: 70px;
                                     border-radius: 10px;
-                                    position: absolute;
+                                    position: relative;
                                     bottom: 5px;
                                     left: 10px;
                                 }
@@ -309,10 +309,11 @@ body{
 
                                     &Description{
                                         margin-left: 10px;
-                                        margin-top: -20px;
+                                        position: relative;
+                                        bottom: 18px;
 
                                         h3{
-                                            font-size: 14px;
+                                            font-size: 13.6px;
                                         }
                                         &Duration{
                                             display: flex;
@@ -348,7 +349,8 @@ body{
 
                                     &Description{
                                         margin-left: 10px;
-                                        margin-top: -20px;
+                                        position: relative;
+                                        bottom: 18px;
 
                                         h3{
                                             font-size: 14px;

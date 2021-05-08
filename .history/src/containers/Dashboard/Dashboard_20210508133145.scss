@@ -164,34 +164,11 @@ body{
                                 height: 53px;
                                 font-size: 12px;
                                 margin: 8px 8px auto 8px;
-                                display: flex;
-                                flex-direction: column;
-                                position: relative;
                                 
                                 p{
                                     padding-left: 10px;
-                                }   
-                                &Line1{
-                                    content: '';
-                                    background: #79e289;
-                                    height: 10px;
-                                    width: 70px;
-                                    border-radius: 10px;
-                                    position: absolute;
-                                    bottom: 5px;
-                                    left: 10px;
+                                    padding-top: 10px;
                                 }
-                                &Line2{
-                                    content: '';
-                                    background: #b0b2b5;
-                                    height: 10px;
-                                    width: 90px;
-                                    border-radius: 10px;
-                                    position: absolute;
-                                    bottom: 5px;
-                                    left: 70px;
-                                }
-
                             }
                             &Progress{
                                 display: grid;
@@ -297,7 +274,7 @@ body{
                                     background: #f3f6fb;
                                     border-radius: 10px;
                                     width: calc(100% -16px);
-                                    height: 125px;
+                                    height: 120px;
                                     display: flex;
                                     padding: 10px;
 
@@ -309,7 +286,6 @@ body{
 
                                     &Description{
                                         margin-left: 10px;
-                                        margin-top: -20px;
 
                                         h3{
                                             font-size: 14px;
@@ -335,7 +311,7 @@ body{
                                     background: #f3f6fb;
                                     border-radius: 10px;
                                     width: calc(100% - 16px);
-                                    height: 125px;
+                                    height: 120px;
                                     display: flex;
                                     padding: 10px;
 
@@ -348,7 +324,6 @@ body{
 
                                     &Description{
                                         margin-left: 10px;
-                                        margin-top: -20px;
 
                                         h3{
                                             font-size: 14px;
@@ -406,6 +381,7 @@ body{
                                     border-radius: 10px;
                                     padding-left: 10px;
                                     font-size: 14px;
+                                    position: relative;
 
                                     h3{
                                         margin: 0;
@@ -417,10 +393,10 @@ body{
                                         color: #ffffff;
                                         border-radius: 12px;
                                         border-style: none;
-                                        padding: 4px 12px 4px 12px;
+                                        padding: 4px 10px 4px 10px;
                                         cursor: pointer;
-                                        position: relative;
-                                        bottom: 10px;
+                                        position: absolute;
+                                        top: 30px;
                                     }
                                 }
                                 &Unpublished{

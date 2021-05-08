@@ -46,8 +46,6 @@ const dashboard = () =>{
                                     </div>
                                     <div className='detailsAboutComplete'>
                                         <p>Complete your profile</p>
-                                        <span className='detailsAboutCompleteLine1'></span>
-                                        <span className='detailsAboutCompleteLine2'></span>
                                     </div>
                                     <div className='detailsAboutProgress'>
                                         <div className='detailsAboutProgressCompleted'>
@@ -80,7 +78,7 @@ const dashboard = () =>{
                                         <div className='coursesListManagement'>
                                             <img src='./assets/image14.png'/>
                                             <div className='coursesListManagementDescription'>
-                                                <h3>Project Management Masterclass - Spinning plates: A day in the life of a Project Manager</h3>
+                                                <h3>Project Management Masterclass - Spinning <br/>plates: A day in the life of a Project Manager</h3>
                                                 <div className='coursesListManagementDescriptionDuration'>
                                                     <li>1h 53m</li>
                                                     <li>jan 16, 2021</li>

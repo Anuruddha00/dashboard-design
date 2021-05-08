@@ -166,30 +166,27 @@ body{
                                 margin: 8px 8px auto 8px;
                                 display: flex;
                                 flex-direction: column;
-                                position: relative;
                                 
                                 p{
                                     padding-left: 10px;
                                 }   
                                 &Line1{
-                                    content: '';
                                     background: #79e289;
                                     height: 10px;
                                     width: 70px;
-                                    border-radius: 10px;
+                                    content: '';
                                     position: absolute;
                                     bottom: 5px;
                                     left: 10px;
                                 }
                                 &Line2{
-                                    content: '';
                                     background: #b0b2b5;
                                     height: 10px;
-                                    width: 90px;
-                                    border-radius: 10px;
-                                    position: absolute;
+                                    width: 70px;
+                                    content: '';
+                                    position: relative;
                                     bottom: 5px;
-                                    left: 70px;
+                                    left: 10px;
                                 }
 
                             }
@@ -309,10 +306,11 @@ body{
 
                                     &Description{
                                         margin-left: 10px;
-                                        margin-top: -20px;
+                                        position: relative;
+                                        bottom: 18px;
 
                                         h3{
-                                            font-size: 14px;
+                                            font-size: 13.6px;
                                         }
                                         &Duration{
                                             display: flex;
@@ -348,7 +346,8 @@ body{
 
                                     &Description{
                                         margin-left: 10px;
-                                        margin-top: -20px;
+                                        position: relative;
+                                        bottom: 18px;
 
                                         h3{
                                             font-size: 14px;

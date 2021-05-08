@@ -21,13 +21,12 @@ body{
             border-radius: 16px;
             background: #ffffff;
             width: 100%;
-            height: calc(100vh - 2px);
+            height: calc(100vh - 16px);
             position: relative;
            
             &Action{
                display: flex;
                flex-direction: column;
-               margin-top: 50%;
 
                 &Button{
                    text-align: left;
@@ -128,16 +127,16 @@ body{
                     grid-template-columns: 2fr 5fr 3fr;
             
                     .details{
-                        margin: 16px 8px;
+                        margin: 16px 6px;
                         border-radius: 16px;
                         background: #ffffff;
-                        height: calc(100vh - 110px);
-
+                        
                         &About{
                             
+                        
                             &Profile{
                                 text-align: center;
-                                margin-top: 8px;
+                                margin-top: 15px;
                                                 
                                 h3{
                                     font-size: 18px;
@@ -163,40 +162,17 @@ body{
                                 color: #b0b2b5;
                                 height: 53px;
                                 font-size: 12px;
-                                margin: 8px 8px auto 8px;
-                                display: flex;
-                                flex-direction: column;
-                                position: relative;
+                                margin-left: 16px;
                                 
                                 p{
                                     padding-left: 10px;
-                                }   
-                                &Line1{
-                                    content: '';
-                                    background: #79e289;
-                                    height: 10px;
-                                    width: 70px;
-                                    border-radius: 10px;
-                                    position: absolute;
-                                    bottom: 5px;
-                                    left: 10px;
+                                    padding-top: 10px;
                                 }
-                                &Line2{
-                                    content: '';
-                                    background: #b0b2b5;
-                                    height: 10px;
-                                    width: 90px;
-                                    border-radius: 10px;
-                                    position: absolute;
-                                    bottom: 5px;
-                                    left: 70px;
-                                }
-
                             }
                             &Progress{
                                 display: grid;
                                 grid-template-columns: 1fr 1fr;
-                                margin: 8px 8px auto 8px;;
+                                margin: 16px;
                                 gap: 1em;
                                 color: #ffffff;
 
@@ -208,7 +184,7 @@ body{
                                     background: #79e289;
                                     border-radius: 8px;
                                     width: 100%;
-                                    height: 90px;
+                                    height: 100px;
                                     position: relative;
 
                                     h1{
@@ -222,7 +198,7 @@ body{
                                     background:  #44c6ff;
                                     border-radius: 8px;
                                     width: 100%;
-                                    height: 90px;
+                                    height: 100px;
                                     position: relative;
 
                                     h1{
@@ -236,7 +212,7 @@ body{
                                     background:  #f4d33d;
                                     border-radius: 8px;
                                     width: 100%;
-                                    height: 90px;
+                                    height: 100px;
                                     position: relative;
 
                                     h1{
@@ -250,7 +226,7 @@ body{
                                     background: #f560b2;
                                     border-radius: 8px;
                                     width: 100%;
-                                    height: 90px;
+                                    height: 100px;
                                     position: relative;
 
                                     h1{
@@ -297,7 +273,6 @@ body{
                                     background: #f3f6fb;
                                     border-radius: 10px;
                                     width: calc(100% -16px);
-                                    height: 125px;
                                     display: flex;
                                     padding: 10px;
 
@@ -309,20 +284,19 @@ body{
 
                                     &Description{
                                         margin-left: 10px;
-                                        margin-top: -20px;
 
                                         h3{
                                             font-size: 14px;
                                         }
-                                        &Duration{
-                                            display: flex;
-                                            list-style: none;
-                                            font-size: 13px;
-                                            color: #707070;
-    
-                                            li{
-                                                margin-right: 20px;     
-                                            }
+                                    }
+                                    &Duration{
+                                        display: flex;
+                                        list-style: none;
+                                        font-size: 13px;
+                                        color: #707070;
+
+                                        li{
+                                            margin-right: 20px;     
                                         }
                                     }
                                     p{
@@ -335,7 +309,6 @@ body{
                                     background: #f3f6fb;
                                     border-radius: 10px;
                                     width: calc(100% - 16px);
-                                    height: 125px;
                                     display: flex;
                                     padding: 10px;
 
@@ -348,24 +321,23 @@ body{
 
                                     &Description{
                                         margin-left: 10px;
-                                        margin-top: -20px;
 
                                         h3{
                                             font-size: 14px;
                                         }
-                                        &Duration{
-                                            display: flex;
-                                            list-style: none;
-                                            font-size: 13px;
-                                            color: #707070;
-    
-                                            li{
-                                                margin-right: 20px;     
-                                            }
+                                    }
+                                    &Duration{
+                                        display: flex;
+                                        list-style: none;
+                                        font-size: 13px;
+                                        color: #707070;
+
+                                        li{
+                                            margin-right: 20px;     
                                         }
                                     }
                                     p{
-                                        // margin-top: 8px;
+                                        margin-top: 8px;
                                         color: #707070;
                                         font-size: 13px;
                                        
@@ -417,10 +389,8 @@ body{
                                         color: #ffffff;
                                         border-radius: 12px;
                                         border-style: none;
-                                        padding: 4px 12px 4px 12px;
+                                        padding: 4px 10px 4px 10px;
                                         cursor: pointer;
-                                        position: relative;
-                                        bottom: 10px;
                                     }
                                 }
                                 &Unpublished{
@@ -454,24 +424,27 @@ body{
                             background: #ffffff;
                             border-radius: 16px;
                             padding: 16px;
-                            height: calc(100% - 22%);
 
                             h2{
                                 margin: 0;
                             }
+                            h3{
+                                font-size: 14px;
+                                color: #707070;
+                            }
+                            p{
+                                font-size: 12px;
+                                color: #b0b2b5;
+                            }
                             &Paragraph{
                                 border-radius: 10px;
                                 background: #f3f6fb;
-                                
+
                                 h3{
-                                    font-size: 14px;
-                                    color: #707070;
-                                    padding: 3px 0 3px 10px;
+                                    padding: 5px 0 5px 8px;
                                 }
                                 p{
-                                    font-size: 12px;
-                                    color: #b0b2b5;
-                                    padding-left: 8px;
+                                    padding: 8px;
                                 }
                             }
                         }

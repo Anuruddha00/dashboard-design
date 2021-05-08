@@ -46,8 +46,7 @@ const dashboard = () =>{
                                     </div>
                                     <div className='detailsAboutComplete'>
                                         <p>Complete your profile</p>
-                                        <span className='detailsAboutCompleteLine1'></span>
-                                        <span className='detailsAboutCompleteLine2'></span>
+                                        
                                     </div>
                                     <div className='detailsAboutProgress'>
                                         <div className='detailsAboutProgressCompleted'>
