@@ -271,7 +271,7 @@ body{
                                 &View{
                                     color: #b0b2b5;
                                     font-size: 14px;
-                                    padding: 25px 20px;
+                                    padding: 25px 15px;
                                 }
                             }
                             &List{
@@ -371,12 +371,13 @@ body{
                                 &View{
                                     color: #b0b2b5;
                                     font-size: 14px;
-                                    padding: 25px 20px;
+                                    padding: 25px 10px;
                                 }
                             }
                             &Content{
                                 margin-left: 10px;
-                                
+                                margin-top: 0;
+
                                 &Published{
                                     width: 554px;
                                     height: 94px;
@@ -384,45 +385,6 @@ body{
                                     border-radius: 10px;
                                     padding-left: 10px;
                                     font-size: 14px;
-                                    position: relative;
-
-                                    h3{
-                                        padding-top: 5px
-                                    }
-                                    button{
-                                        position: absolute;
-                                        bottom: 10px;
-                                        background: #79e289;
-                                        color: #ffffff;
-                                        border-radius: 12px;
-                                        border-style: none;
-                                        padding: 4px 10px 4px 10px;
-                                        cursor: pointer;
-
-                                    }
-                                }
-                                &Unpublished{
-                                    width: 554px;
-                                    height: 80px;
-                                    background: #f3f6fb;
-                                    border-radius: 10px;
-                                    padding-left: 10px;
-                                    font-size: 14px;
-
-                                    h3{
-                                        padding-top: 5px
-                                    }
-                                    button{
-                                        position: absolute;
-                                        bottom: 50px;
-                                        background: #ff7552;
-                                        color: #ffffff;
-                                        border-radius: 12px;
-                                        border-style: none;
-                                        padding: 4px 10px 4px 10px;
-                                        cursor: pointer;
-
-                                    }
                                 }
                             }
                         }

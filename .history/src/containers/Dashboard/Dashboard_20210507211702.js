@@ -77,9 +77,9 @@ const dashboard = () =>{
                                     <div className='coursesList'>
                                         <div className='coursesListManagement'>
                                             <img src='./assets/Image 15.png'/>
-                                            <div className='coursesListDescription'>
+                                            <div className='coursesListManagementDescription'>
                                                 <h3>Project Management Masterclass - Spinning plates: A day in the life of a Project Manager</h3>
-                                                <div className='coursesListDuration'>
+                                                <div className='coursesListManagementDuration'>
                                                     <li>1h 53m</li>
                                                     <li>jan 16, 2021</li>
                                                 </div>
@@ -100,20 +100,6 @@ const dashboard = () =>{
                                     </div>
                                 </section>
                                 <section className='blog'>
-                                    <nav className='blogNavbar'>
-                                      <li className='blogNavbarTitle'>Blogs</li>
-                                      <li className='blogNavbarView'>View Blogs</li>
-                                    </nav>
-                                    <div className='blogContent'>
-                                        <div className='blogContentPublished'>
-                                            <h3>Inclusion & Diversity at Work: Skills for Confident <br/> Conversations About Race</h3>
-                                            <button>Published</button>
-                                        </div>
-                                        <div className='blogContentUnpublished'>
-                                            <h3>Taking Your Team Remote: People, Process, and Tools</h3>
-                                            <button>Unpublished</button>
-                                        </div>
-                                    </div>
 
                                 </section>
                             </section>  

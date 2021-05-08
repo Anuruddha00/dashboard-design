@@ -101,15 +101,15 @@ const dashboard = () =>{
                                 </section>
                                 <section className='blog'>
                                     <nav className='blogNavbar'>
-                                      <li className='blogNavbarTitle'>Blogs</li>
-                                      <li className='blogNavbarView'>View Blogs</li>
+                                      <li className='blogNavbarTitle'>Your Courses</li>
+                                      <li className='blogNavbarView'>View Courses</li>
                                     </nav>
                                     <div className='blogContent'>
-                                        <div className='blogContentPublished'>
+                                        <div className='blogContent'>
                                             <h3>Inclusion & Diversity at Work: Skills for Confident <br/> Conversations About Race</h3>
                                             <button>Published</button>
                                         </div>
-                                        <div className='blogContentUnpublished'>
+                                        <div>
                                             <h3>Taking Your Team Remote: People, Process, and Tools</h3>
                                             <button>Unpublished</button>
                                         </div>

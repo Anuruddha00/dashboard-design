@@ -376,7 +376,8 @@ body{
                             }
                             &Content{
                                 margin-left: 10px;
-                                
+                                margin-top: 0;
+
                                 &Published{
                                     width: 554px;
                                     height: 94px;
@@ -384,21 +385,9 @@ body{
                                     border-radius: 10px;
                                     padding-left: 10px;
                                     font-size: 14px;
-                                    position: relative;
 
                                     h3{
-                                        padding-top: 5px
-                                    }
-                                    button{
-                                        position: absolute;
-                                        bottom: 10px;
-                                        background: #79e289;
-                                        color: #ffffff;
-                                        border-radius: 12px;
-                                        border-style: none;
-                                        padding: 4px 10px 4px 10px;
-                                        cursor: pointer;
-
+                                        margin-top: 10px
                                     }
                                 }
                                 &Unpublished{
@@ -408,21 +397,6 @@ body{
                                     border-radius: 10px;
                                     padding-left: 10px;
                                     font-size: 14px;
-
-                                    h3{
-                                        padding-top: 5px
-                                    }
-                                    button{
-                                        position: absolute;
-                                        bottom: 50px;
-                                        background: #ff7552;
-                                        color: #ffffff;
-                                        border-radius: 12px;
-                                        border-style: none;
-                                        padding: 4px 10px 4px 10px;
-                                        cursor: pointer;
-
-                                    }
                                 }
                             }
                         }

@@ -261,17 +261,16 @@ body{
                                 list-style: none;
                                 display: flex;
                                 justify-content: space-between;
-                                height: 55px;
                                 
                                 &Title{
                                     font-size: 18px;
-                                    font-weight: bold;
+                                    font-weight: 500px;
                                     padding: 20px 0 0 10px;
                                 }
                                 &View{
                                     color: #b0b2b5;
                                     font-size: 14px;
-                                    padding: 25px 20px;
+                                    padding: 20px 10px;
                                 }
                             }
                             &List{
@@ -279,23 +278,9 @@ body{
                                 display: flex;
                                 flex-direction: column;
 
-                                &Description{
-                                    font-size: 14px;
-                                }
-                                &Duration{
-                                    display: flex;
-                                    list-style: none;
-                                    font-size: 13px;
-                                    color: #707070;
-                                    
-                                    li{
-                                        margin-right: 20px;
-                                    }
-                                }
-
                                 &Management{
                                     background: #f3f6fb;
-                                    margin-left: 10px;
+                                   
                                     border-radius: 10px;
                                     width: 554px;
                                     height: 138px;
@@ -309,6 +294,21 @@ body{
                                         align-self: center;
                                     }
                                     
+                                    &Description{
+                                        font-size: 14px;
+                                       
+                                        
+                                    }
+                                    &Duration{
+                                        display: flex;
+                                        list-style: none;
+                                        font-size: 13px;
+                                        color: #707070;
+                                        
+                                        li{
+                                            margin-right: 20px;
+                                        }
+                                    }
                                     p{
                                         margin: 0;
                                         color: #707070;
@@ -317,8 +317,8 @@ body{
                                 }
                                 &Business{
                                     background: #f3f6fb;
-                                    margin-top: 20px;
-                                    margin-left: 10px;
+                                    padding-top: 8px;
+                                    margin-top: 5px;
                                     border-radius: 10px;
                                     width: 554px;
                                     height: 138px;
@@ -345,86 +345,22 @@ body{
                                         margin: 0;
                                         color: #707070;
                                         font-size: 13px;
-                                    }      
+                                    }
+                                    
+                                    
                                 }
-                            }    
+                            }
+                            
                         }
+
                         .blog{
                             width: 586px;
                             height: 272px;
                             border-radius: 16px;
                             background: #ffffff;
                             margin-top: 7px;
-                            position: absolute;    
+                            position: absolute;
                             
-                            &Navbar{
-                                list-style: none;
-                                display: flex;
-                                justify-content: space-between;
-                                height: 35px;
-
-                                &Title{
-                                    font-size: 18px;
-                                    font-weight: bold;
-                                    padding: 20px 0 0 15px;
-                                }
-                                &View{
-                                    color: #b0b2b5;
-                                    font-size: 14px;
-                                    padding: 25px 20px;
-                                }
-                            }
-                            &Content{
-                                margin-left: 10px;
-                                
-                                &Published{
-                                    width: 554px;
-                                    height: 94px;
-                                    background: #f3f6fb;
-                                    border-radius: 10px;
-                                    padding-left: 10px;
-                                    font-size: 14px;
-                                    position: relative;
-
-                                    h3{
-                                        padding-top: 5px
-                                    }
-                                    button{
-                                        position: absolute;
-                                        bottom: 10px;
-                                        background: #79e289;
-                                        color: #ffffff;
-                                        border-radius: 12px;
-                                        border-style: none;
-                                        padding: 4px 10px 4px 10px;
-                                        cursor: pointer;
-
-                                    }
-                                }
-                                &Unpublished{
-                                    width: 554px;
-                                    height: 80px;
-                                    background: #f3f6fb;
-                                    border-radius: 10px;
-                                    padding-left: 10px;
-                                    font-size: 14px;
-
-                                    h3{
-                                        padding-top: 5px
-                                    }
-                                    button{
-                                        position: absolute;
-                                        bottom: 50px;
-                                        background: #ff7552;
-                                        color: #ffffff;
-                                        border-radius: 12px;
-                                        border-style: none;
-                                        padding: 4px 10px 4px 10px;
-                                        cursor: pointer;
-
-                                    }
-                                }
-                            }
                         }
                     }
                     .notification{

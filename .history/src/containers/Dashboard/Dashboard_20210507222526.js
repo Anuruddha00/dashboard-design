@@ -101,8 +101,8 @@ const dashboard = () =>{
                                 </section>
                                 <section className='blog'>
                                     <nav className='blogNavbar'>
-                                      <li className='blogNavbarTitle'>Blogs</li>
-                                      <li className='blogNavbarView'>View Blogs</li>
+                                      <li className='blogNavbarTitle'>Your Courses</li>
+                                      <li className='blogNavbarView'>View Courses</li>
                                     </nav>
                                     <div className='blogContent'>
                                         <div className='blogContentPublished'>

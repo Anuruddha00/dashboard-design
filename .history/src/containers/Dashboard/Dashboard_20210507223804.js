@@ -100,10 +100,10 @@ const dashboard = () =>{
                                     </div>
                                 </section>
                                 <section className='blog'>
-                                    <nav className='blogNavbar'>
+                                    <ul className='blogNavbar'>
                                       <li className='blogNavbarTitle'>Blogs</li>
-                                      <li className='blogNavbarView'>View Blogs</li>
-                                    </nav>
+                                      <li className='blogNavbarView'>View Courses</li>
+                                    </ul>
                                     <div className='blogContent'>
                                         <div className='blogContentPublished'>
                                             <h3>Inclusion & Diversity at Work: Skills for Confident <br/> Conversations About Race</h3>
