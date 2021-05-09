@@ -86,10 +86,8 @@ const dashboard = () =>{
                                                     <li>jan 16, 2021</li>
                                                 </div>
                                                 <p>Lesson Completed:4 / 12</p>
-                                                <div className='coursesListManagementDescriptionLine'>
-                                                    <span className='coursesListManagementDescriptionLineOne'></span>
-                                                    <span className='coursesListManagementDescriptionLineTwo'></span>
-                                                </div>
+                                                <span className='coursesListManagementDescriptionDurationLine1'></span>
+                                                <span className='coursesListManagementDescriptionDurationLine2'></span>
                                             </div>
                                         </div>
                                         <div className='coursesListBusiness'>
@@ -100,11 +98,7 @@ const dashboard = () =>{
                                                     <li>2h 43m</li>
                                                     <li>jan 16,2021-May 16, 2021</li>
                                                 </div>
-                                                <p>Lesson Completed: 06 / 18</p>
-                                                <div className='coursesListBusinessDescriptionLine'>
-                                                    <span className='coursesListBusinessDescriptionLineOne'></span>
-                                                    <span className='coursesListBusinessDescriptionLineTwo'></span>
-                                                </div>
+                                                <p>Lesson Completed:4 / 12</p>
                                             </div>
                                         </div>
                                     </div>

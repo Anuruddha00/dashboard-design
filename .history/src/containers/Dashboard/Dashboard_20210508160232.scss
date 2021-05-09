@@ -174,7 +174,7 @@ body{
                                 &Line1{
                                     content: '';
                                     background: #b0b2b5;
-                                    height: 9px;
+                                    height: 8px;
                                     width: 100px;
                                     border-radius: 10px;
                                     position: absolute;
@@ -184,7 +184,7 @@ body{
                                 &Line2{
                                     content: '';
                                     background: #79e289;
-                                    height: 9px;
+                                    height: 8px;
                                     width: 70px;
                                     border-radius: 10px;
                                     position: absolute;
@@ -301,7 +301,6 @@ body{
                                     height: 125px;
                                     display: flex;
                                     padding: 10px;
-                                    position: relative;
 
                                     img{
                                         height: fit-content;
@@ -321,7 +320,7 @@ body{
                                             list-style: none;
                                             font-size: 13px;
                                             color: #707070;
-                                            
+                                            display: flex;
 
                                             li{
                                                 margin-right: 20px;     
@@ -329,31 +328,21 @@ body{
                                             
                                         }
                                         &Line{
-                                            display: flex;
-                                            flex-direction: column;
                                            
                                             &One{
                                                 content: '';
                                                 background: #b0b2b5;
-                                                height: 9px;
-                                                width: 40%;
+                                                height: 8px;
+                                                width: 100px;
                                                 border-radius: 10px;
-                                                margin-top: 0;
-                                                position: absolute;
-                                                bottom: 7px;
-                                                right:18px;  
+                                                // position: absolute;
+                                                // top: 180px;
+                                                // left: 200px;
                                             }
-                                            &Two{
-                                                content: '';
-                                                background: #79e289;
-                                                height: 9px;
-                                                width: 120px;
-                                                border-radius: 10px;
-                                                position: absolute;
-                                                bottom: 7px;
-                                                left: 185px;
-                                            }
-                                        }      
+                                            
+
+                                        }
+                                        
                                     }
                                     p{
                                         margin-top: 8px;
@@ -378,7 +367,7 @@ body{
 
                                     &Description{
                                         margin-left: 10px;
-                                        margin-top: -16px;
+                                        margin-top: -20px;
 
                                         h3{
                                             font-size: 14px;
@@ -391,32 +380,6 @@ body{
     
                                             li{
                                                 margin-right: 20px;     
-                                            }
-                                        }
-                                        &Line{
-                                            display: flex;
-                                            flex-direction: column;
-                                            
-                                            &One{
-                                                content: '';
-                                                background: #b0b2b5;
-                                                height: 9px;
-                                                width: 20%;
-                                                border-radius: 10px;
-                                                margin-top: 0;
-                                                position: absolute;
-                                                bottom: 30px;
-                                                right:32px;  
-                                            }
-                                            &Two{
-                                                content: '';
-                                                background: #79e289;
-                                                height: 9px;
-                                                width: 40%;
-                                                border-radius: 10px;
-                                                position: absolute;
-                                                bottom: 30px;
-                                                right: 110px;
                                             }
                                         }
                                     }
