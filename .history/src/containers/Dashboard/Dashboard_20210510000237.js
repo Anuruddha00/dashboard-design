@@ -36,7 +36,7 @@ const dashboard = () =>{
                                     <h2>Alexey Savitskiy</h2>
                                 </div>
                                 <img src='./assets/Image 9.png'/>
-                                <h1 className='contentNavbarProfileExit'><ExitToAppIcon/></h1>        
+                                <button><ExitToAppIcon/></button>        
                             </div> 
                         </nav>
 
@@ -163,6 +163,7 @@ const dashboard = () =>{
             </div>
         </div>
     )
+    
 }
 export default dashboard;
 

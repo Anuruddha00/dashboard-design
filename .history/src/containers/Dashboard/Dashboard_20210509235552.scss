@@ -1,3 +1,4 @@
+
 body{
     margin: 16px;
     padding: 0;
@@ -6,6 +7,7 @@ body{
     background: #f1f5fb;
     
 }
+
 .container{ 
     height: 100%;
     width: 100%;
@@ -146,18 +148,6 @@ body{
                                 color: #707070;
                             }
                         }
-                        &Exit{
-                            cursor: pointer;
-                            display: flex;
-
-                            &::before{
-                                background: #bebdbd;
-                                content: '';
-                                height: 25px;
-                                width: 1.5px;
-                                margin-right: 10px;
-                            }
-                        }
                     }
                 }
                 &Body{
@@ -226,8 +216,10 @@ body{
                                     border-radius: 10px;
                                     position: absolute;
                                     bottom: 8px;
-                                    left: 10px;                      
+                                    left: 10px;
+                                    
                                 }
+
                             }
                             &Progress{
                                 display: grid;
@@ -356,10 +348,12 @@ body{
                                             list-style: none;
                                             font-size: 13px;
                                             color: #707070;
+                                            
 
                                             li{
                                                 margin-right: 20px;     
                                             }
+                                            
                                         }
                                         &Line{
                                             display: flex;
@@ -408,6 +402,7 @@ body{
                                         align-self: center;
                                     }
 
+
                                     &Description{
                                         margin-left: 10px;
                                         margin-top: -16px;
@@ -453,8 +448,10 @@ body{
                                         }
                                     }
                                     p{
+                                        // margin-top: 8px;
                                         color: #707070;
-                                        font-size: 13px;   
+                                        font-size: 13px;
+                                       
                                     }       
                                 }
                             }    

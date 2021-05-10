@@ -4,7 +4,6 @@ import DashboardIcon from '@material-ui/icons/Dashboard';
 import DvrIcon from '@material-ui/icons/Dvr';
 import LocalAtmIcon from '@material-ui/icons/LocalAtm';
 import BorderColorIcon from '@material-ui/icons/BorderColor';
-import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 
 const dashboard = () =>{
    
@@ -36,7 +35,7 @@ const dashboard = () =>{
                                     <h2>Alexey Savitskiy</h2>
                                 </div>
                                 <img src='./assets/Image 9.png'/>
-                                <h1 className='contentNavbarProfileExit'><ExitToAppIcon/></h1>        
+                                <h1>Exit</h1>        
                             </div> 
                         </nav>
 
@@ -163,6 +162,7 @@ const dashboard = () =>{
             </div>
         </div>
     )
+    
 }
 export default dashboard;
 
